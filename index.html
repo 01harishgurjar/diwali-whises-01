@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Deepawai</title>
+    <style>
+        body {
+            background-color: orangered;
+            color: white;
+        }
+
+        /*      MAIN CONTAINER   */
+
+        .main-container {
+            margin-top: 50px;
+        }
+
+        .main-container .card-view {
+            width: 300px;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .main-container .card-view h1 {
+            font-size: 40px;
+            color: white;
+        }
+
+        .main-container .card-view p {
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.5;
+            align-items: center;
+            color: white;
+        }
+
+        .main-container .first-box input{
+            padding: 5px;
+        }
+
+
+        /*   SIDE CONTANER     */
+        .sides-contaner {
+            width: 100vw;
+            /* height: 2000px; */
+            position: absolute;
+            top: 10PX;
+
+        }
+
+        marquee img {
+            width: 50px;
+        }
+
+        .top {
+            width: 100%;
+            height: 50px1;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+            z-index: 4;
+            /* border: 2px solid; */
+            background-color: orangered;
+        }
+
+        .left {
+            width: 50px;
+            height: 100vh;
+            float: left;
+            text-align: center;
+            /* background-color: red; */
+            color: white;
+            /* border: 2px solid; */
+        }
+
+        .right {
+            width: 50px;
+            height: 100vh;
+            float: right;
+            margin-left: 9px;
+            text-align: center;
+            /* background-color: red; */
+            color: white;
+            /* border: 2px solid; */
+        }
+
+        .bottom {
+            width: 100%;
+            color: white;
+            /* border: 2px solid; */
+        }
+
+        
+        .blink {
+                animation: blinker 1.5s linear infinite;
+                color: white;
+                font-family: sans-serif;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+    </style>
+</head>
+
+<body>
+
+    <section class="main-container">
+        <center>
+            <div class="card-view">
+                <h1>whish you a very Happy Deepawli</h1>
+                <p>
+                    May the diyas light lead you onto the road of growth and prosperity. Happy Diwali!
+                </p>
+
+            </div>
+
+            <img src="assts/img/deewali-femaly-img.jpg" alt="">
+
+            <div class="first-box">
+                <p>From</p><h1>Harish Gurjar</h1><p>deewali whishes</p>
+
+                <input type="text" style="color: red;" >
+            </div>
+
+        </center>
+    </section>
+
+
+    <div class="sides-contaner">
+
+        <marquee behavior="" direction="" class="top blink">
+            <h1>Happy Deepawli</h1>
+        </marquee>
+        <marquee behavior="" direction="up" class="left">
+
+            <img src="assts/img/img-1.png" alt="">
+            <img src="assts/img/img-2.png" alt="">
+            <img src="assts/img/img-3.png" alt="">
+            <img src="assts/img/img-4.png" alt="">
+
+            <img src="assts/img/gif-1.gif" alt="">
+            <h1>H</h1>
+            <h1>a</h1>
+            <h1>p</h1>
+            <h1>p</h1>
+            <h1>y</h1>
+            <h1>&nbsp;</h1>
+            <img src="assts/img/gif-1.gif" alt="">
+            <h1>&nbsp;</h1>
+            <h1>D</h1>
+            <h1>e</h1>
+            <h1>e</h1>
+            <h1>p</h1>
+            <h1>w</h1>
+            <h1>l</h1>
+            <h1>i</h1>
+            <img src="assts/img/gif-1.gif" alt="">
+
+            <img src="assts/img/img-1.png" alt="">
+            <img src="assts/img/img-2.png" alt="">
+            <img src="assts/img/img-3.png" alt="">
+            <img src="assts/img/img-4.png" alt="">
+        </marquee>
+
+
+        <marquee behavior="" direction="down" class="right">
+
+            <img src="assts/img/img-1.png" alt="">
+            <img src="assts/img/img-2.png" alt="">
+            <img src="assts/img/img-3.png" alt="">
+            <img src="assts/img/img-4.png" alt="">
+
+            <img src="assts/img/gif-1.gif" alt="">
+            <h1>H</h1>
+            <h1>a</h1>
+            <h1>p</h1>
+            <h1>p</h1>
+            <h1>y</h1>
+            <h1>&nbsp;</h1>
+            <img src="assts/img/gif-1.gif" alt="">
+            <h1>&nbsp;</h1>
+            <h1>D</h1>
+            <h1>e</h1>
+            <h1>e</h1>
+            <h1>p</h1>
+            <h1>w</h1>
+            <h1>l</h1>
+            <h1>i</h1>
+            <img src="assts/img/gif-1.gif" alt="">
+
+            <img src="assts/img/img-1.png" alt="">
+            <img src="assts/img/img-2.png" alt="">
+            <img src="assts/img/img-3.png" alt="">
+            <img src="assts/img/img-4.png" alt="">
+
+        </marquee>
+        <!-- <marquee behavior="" direction="" class="bottom">
+
+            <h1>Happy Deepawli</h1>
+        </marquee> -->
+    </div>
+
+
+
+    <!-- <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="assts/happy-diwali.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio> -->
+
+    <audio id="my_audio" src="assts/happy-diwali.mp3" loop="loop"></audio>
+
+
+
+    <script>
+        window.onload = function () {
+            document.getElementById("my_audio").play();
+        }
+    </script>
+</body>
+
+</html>
